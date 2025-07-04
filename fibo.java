@@ -10,8 +10,8 @@ System.out.println("Fibonac series:1,1,");
 int s=1,e=1;
 for(int i=3;i<n;i++)
 {
-sum=s+e;
-Syatem.out.println(sum+",");
+int sum=s+e;
+System.out.println(sum+",");
 s=e;
 e=sum;
 }
